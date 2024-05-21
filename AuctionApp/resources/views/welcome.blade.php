@@ -29,12 +29,12 @@
     <p class="mb-10 font font-yellowtail text-3xl">Welcome back!</p>
    <form class="max-w-sm mx-auto" action="">
     <div class="mb-5">
-        <input type="email" id="email" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm font-medium font-poppins rounded-xl focus:ring-blue-500 focus:border-blue-500 block w-96 p-3 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Username or email" style="background-color: #FEFDED;" required />
+        <input type="email" id="email" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm font-medium font-poppins rounded-xl focus:ring-blue-500 focus:border-blue-500 block w-96 p-3 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Username" style="background-color: #FEFDED;" required />
     </div>
     <div class="mb-5">
         <input type="password" id="password" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm font-medium rounded-xl font-poppins focus:ring-blue-500 focus:border-blue-500 block w-full p-3 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Password" style="background-color: #FEFDED;" required />
     </div>
-    <button type="submit" class="flex justify-center text-white bg-zinc-950 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm sm:w-auto px-5 p-2 text-center font-poppins dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 mx-auto" style="width: 150px; margin-top: 20px;"><a href="/home">Login</a></button>
+    <button type="submit" class="flex justify-center text-white bg-zinc-950 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm sm:w-auto px-5 p-2 text-center font-poppins dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 mx-auto" style="width: 150px; margin-top: 20px;">Login</button>
     </form> 
     <p class="mt-24 font-poppins">don't have a account? <a href="/login-register/sign-up" class="font-poppins text-blue-600">sign up here</a></p>
 </div>

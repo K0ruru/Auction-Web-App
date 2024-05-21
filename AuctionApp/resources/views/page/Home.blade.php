@@ -38,7 +38,7 @@
             <a href="#" class="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500" aria-current="page">Home</a>
             </li>
             <li>
-            <a href="#" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Account</a>
+            <a href="#" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Inbox</a>
             </li>
             <li>
             <a href="/" class="w-24 h-8 flex justify-center items-center bg-black text-white rounded p-10 md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white dark:hover:transition-all">Logout</a>
@@ -70,6 +70,11 @@
                     <!-- DURASI PELELANGAN -->
                     <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">2:02:30 <br> End Time</p>
 
+                    <p class=" text-green-500 font-poppins font-bold text-xl">Open</p>
+                    <!-- OR CLOSE -->
+
+                    <!-- <p class="text-red-500 font-poppins font-bold text-xl">Close</p> -->
+
                     <!-- DESKRIPSI BARANG -->
                     <p class="font-poppins">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda, itaque. Porro, fugit nobis ducimus omnis quis molestias nihil perspiciatis repudiandae corrupti eiu, id obcaecati aut?</p>
                     <div class="flex flex-col items-center w-9/12 mx-auto mt-10">
@@ -88,6 +93,11 @@
                     <!-- DURASI PELELANGAN -->
                     <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">2:02:30 <br> End Time</p>
 
+                    <p class=" text-green-500 font-poppins font-bold text-xl">Open</p>
+                    <!-- OR CLOSE -->
+
+                    <!-- <p class="text-red-500 font-poppins font-bold text-xl">Close</p> -->
+
                     <!-- DESKRIPSI BARANG -->
                     <p class="font-poppins">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda, itaque. Porro, fugit nobis ducimus omnis quis molestias nihil perspiciatis repudiandae corrupti eiu, id obcaecati aut?</p>
                     <div class="flex flex-col items-center w-9/12 mx-auto mt-10">
@@ -98,6 +108,7 @@
             </div>
     </section>
 
+    <!-- MODAL / POPUP FOR BID -->
     <div id="myModal" class="modal">
         <div class="modal-content">
             <span class="close">&times;</span>
@@ -108,27 +119,26 @@
         </div>
     </div>
 
-
-
-<section class="bg-center bg-no-repeat footer bg-gray-700 bg-blend-multiply">
-    <div class="px-4 mx-auto max-w-screen-xl text-center py-24 lg:py-56">
-        <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl">Choose, bid and win!</h1>
-        <p class="mb-8 text-lg font-normal text-gray-300 lg:text-xl sm:px-16 lg:px-48">Auction Place is your trusted platform for buying and selling unique items. We aim to make the auction process simple, secure, and enjoyable for everyone.</p>
-        <div class="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0">
-            <a href="#" class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">
-                Get started
-                <svg class="w-3.5 h-3.5 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
-                </svg>
-            </a>
-            <a href="#" class="inline-flex justify-center hover:text-gray-900 items-center py-3 px-5 sm:ms-4 text-base font-medium text-center text-white rounded-lg border border-white hover:bg-gray-100 focus:ring-4 focus:ring-gray-400">
-                Learn more
-            </a>  
+    <!-- BUAT VARIASI AJA XIXIXI -->
+    <section class="bg-center bg-no-repeat footer bg-gray-700 bg-blend-multiply">
+        <div class="px-4 mx-auto max-w-screen-xl text-center py-24 lg:py-56">
+            <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl">Choose, bid and win!</h1>
+            <p class="mb-8 text-lg font-normal text-gray-300 lg:text-xl sm:px-16 lg:px-48">Auction Place is your trusted platform for buying and selling unique items. We aim to make the auction process simple, secure, and enjoyable for everyone.</p>
+            <div class="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0">
+                <a href="#" class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">
+                    Get started
+                    <svg class="w-3.5 h-3.5 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                    </svg>
+                </a>
+                <a href="#" class="inline-flex justify-center hover:text-gray-900 items-center py-3 px-5 sm:ms-4 text-base font-medium text-center text-white rounded-lg border border-white hover:bg-gray-100 focus:ring-4 focus:ring-gray-400">
+                    Learn more
+                </a>  
+            </div>
         </div>
-    </div>
-</section>
+    </section>
 
-
+    <!-- FOOTER -->
     <div>
         <div class="h-28 bg-stone-800 text-white font-bold font-poppins flex justify-between p-8 items-center">
             <p>Auction Inc.</p>
@@ -145,7 +155,11 @@
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/accounting.js/0.4.1/accounting.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+
+    <!-- ANIMATION JS SOURCE -->
     <script type="text/javascript" src="{{ asset('js/anime.js') }}"></script>
+
+    <!-- MODALS / POPUP FOR BID SOURCE JS -->
     <script type="text/javascript" src="{{ asset('js/modals.js') }}"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>

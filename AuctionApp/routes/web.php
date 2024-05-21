@@ -14,6 +14,11 @@ Route::prefix('/officer')->group(function () {
     Route::get('/officer-product', function () {
         return view('CRUD-PAGE.addProduct');
     });
+
+    // route add product for petugas
+    Route::get('/officer-close-open-product', function () {
+        return view('CRUD-PAGE.closeOpen');
+    });
 });
 
 // route group for admin
@@ -26,12 +31,17 @@ Route::prefix('/admin')->group(function () {
     Route::get('/admin-product', function () {
         return view('CRUD-PAGE.addProduct');
     });
+
+    // route add petugas for admin
+    Route::get('/admin-sign-up', function () {
+        return view('page-login-admin-petugas.register');
+    });
 });
 
 // route login gruop
 Route::prefix('/login-register')->group(function () {
 
-    // route for regsiter masyarakat
+    // route for register masyarakat
     Route::get('/sign-up', function () {
         return view('signUp');
     });
@@ -41,6 +51,7 @@ Route::prefix('/login-register')->group(function () {
         return view('page-login-admin-petugas.login');
     });
    
+    // route for register admin
     Route::get('/sign-up-officer', function () {
         return view('page-login-admin-petugas.register');
     });
