@@ -84,9 +84,9 @@
                     <td class="px-6 py-4">
                         <form action="" method="post">
                             @csrf
-                            <button type="submit" name="edit" class=" bg-yellow-300 p-2 rounded-lg text-black">Edit</button>
+                            <button type="submit" name="open" class=" bg-yellow-300 p-2 rounded-lg text-black">Open</button>
                             |
-                            <button type="submit" name="delete" class=" bg-red-700 p-2 rounded-lg text-white">Delete</button>
+                            <button type="submit" name="close" class=" bg-red-700 p-2 rounded-lg text-white">Close</button>
                         </form>
                     </td>
                 </tr>
